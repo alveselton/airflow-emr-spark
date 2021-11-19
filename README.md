@@ -17,3 +17,6 @@ O objetivo e usar o fluxo do Airflow para criar um cluster EMR na AWS instalar a
 <li>Aguardar a execução da criação do cluster na AWS</li>
 <li>O arquivo e os logs serão salvos em um Bucket no S3 da AWS </li>
 </ul>
+
+<h3>Aplicação</h3>
+Um cenário recomendado é quando tem a necessidade de processar um arquivo com milhares de informações, exemplo um log com milhões de registros. Utilizando o Spark e com script gerado em Python (utilizado neste caso), será distribuido entre os processadores disponives para obter o resultado desejado. 
